@@ -1,0 +1,55 @@
+/* *{
+  margin:0;
+  padding: 0;
+} */
+
+.App-header {
+  background-color: rgb(104, 97, 97);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+#wrapper
+{
+  text-align: center;
+}
+button{
+  border:none;
+  width:70px;
+  height: 30px;
+  font-family: sans-serif;
+  background-color:#27e8a7;
+  margin: 10px;
+}
+input{
+  border:none;
+  background-color:#ddd;
+  height:30px;
+  width:300px;
+  outline:none;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.listwrap
+{
+  margin: auto;
+}
+.listitem{
+  display:inline-block;
+  width:300px;
+  background-color:#ddd;
+  font-family: sans-serif;
+  margin:auto;
+  list-style: none;
+  padding:10px;
+}
+.strike
+{
+  text-decoration:line-through;
+}
+
